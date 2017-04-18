@@ -5,6 +5,7 @@ public class Cylinder {
     public static void main(String[] ar) {
         Circle cp = new Circle(2.8);
         double h = 5.6;
+	int hh = 3;
         
         System.out.println("ºÎÇÇ : " + (cp.getArea() * h));
     }
